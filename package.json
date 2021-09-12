@@ -16,6 +16,8 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
+    "fast-simplex-noise": "^4.0.0",
+    "open-simplex-noise": "^2.5.0",
     "p5": "^1.4.0"
   },
   "prettier": {
