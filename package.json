@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "fast-simplex-noise": "^4.0.0",
+    "jotai": "^1.3.3",
     "open-simplex-noise": "^2.5.0",
     "p5": "^1.4.0"
   },
