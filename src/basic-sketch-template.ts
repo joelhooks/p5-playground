@@ -1,6 +1,10 @@
 import p5 from 'p5'
 
-export default (s: p5) => {
+export let s: p5
+
+export default (p: p5) => {
+  s = p
+
   s.preload = () => {}
 
   s.setup = () => {
