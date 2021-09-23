@@ -1,3 +1,9 @@
+/**
+ * Generates a 64 character random seed to use for grabbing
+ * random value ranges.
+ *
+ * @see https://vimeo.com/611927853/3982dfe200 where Josh Davis explains it.
+ */
 export class Random {
   static generateRandomSeed(size: number) {
     return [...Array(size)]
